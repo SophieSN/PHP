@@ -14,11 +14,11 @@ if ($age>18) {
     echo "A $age, vous pouvez entrer";
     }
 
-elseif($age<=18 and $age>=16) {
+elseif($age>=16) {
     echo "Entree interdite. A $age  ans, vous êtes presque majeur";
 }
 
-elseif($age<16 and $age>14) {
+elseif($age>14) {
     echo "Entrée interdite. A $age  ans, vous êtes jeune";
 }
 
