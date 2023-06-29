@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;}
+    
+.container {
+    width: 1000px;
+    margin: auto;
+    font: "Open sans";
+    font-size: small;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    gap : 20px;
+    
+}
+
+h1 {
+    font-size: medium;
+}
