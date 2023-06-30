@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+   
+body {
+    font-family: "Permanent", "Marker";
+    background-color: white;
+    font-size: 25px;
+}
+
+.container {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 25px 25px;
+    background-color: #01551f;
+    border: 10px solid #652f04 ;
+    font-size: 20 px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+form .section {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+form input[type="text"] {
+    width: 50px;
+    font-size: 25px;
+}
+
+img {
+    max-width: 50px;
+    object-fit: cover; 
+    position: absolute;
+    right:50px;
+    bottom:-10px;
+    
+}
+
+}
